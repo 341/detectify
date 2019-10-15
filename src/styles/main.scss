@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+// 1. Reset Browser - with normalize.css
+
+@import "/vendor/normalize";
+
+// 2. Global
+@import "/abstract/variables";
+@import "/abstract/global";
+
+// 3. Layout
+@import "layout/main";
+
+// 4. Components
+
+@import "components/button";
+@import "components/categories";
+@import "components/notes";
+@import "components/editor/rich_text";

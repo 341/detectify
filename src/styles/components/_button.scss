@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn {
+  border: 1px solid $silver-dark;
+  background-color: transparent;
+
+  &.btn-submit {
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    &:hover{
+      background-color: $silver-dark;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
